@@ -1,0 +1,63 @@
+body {
+    background: black;
+    margin: 0%;
+    font-family: 'Roboto', sans-serif;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+div.post {
+    background-color: white;
+    width: 600px;
+    margin: 50px auto;
+    border-top-left-radius: 1%;
+    border-top-right-radius: 1%;
+    border-bottom-left-radius: 1%;
+    border-bottom-right-radius: 1%;
+}
+
+div.post i{
+    padding: 10px 0px 10px 15px;
+    font-size: 25px;
+}
+
+div.iconohtml5 {
+    float: left;
+    font-size: 45px;
+}
+
+div.cuenta{
+    float: left;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.cuenta p {
+    margin:0%;
+}
+
+div.elipsis{
+    float: right;
+    padding-top: 15px;
+    padding-right: 15px;
+}
+
+div.image img{
+    width: 100%;
+}
+
+div.actions :last-child{
+    float: right;
+    padding-right: 15px;
+}
+
+div.reactions {
+    padding-left: 15px;
+}
+
+div.description {
+    padding-left: 15px;
+    padding-bottom: 10px;
+}

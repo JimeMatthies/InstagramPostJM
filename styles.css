@@ -1,63 +1,60 @@
-body {
-    background: black;
-    margin: 0%;
-    font-family: 'Roboto', sans-serif;
-}
-
-div {
+*{
+    margin:0;
     box-sizing: border-box;
 }
-
-div.post {
+body {
+    background: black;
+    font-family: 'Roboto', sans-serif;
+}
+.post {
     background-color: white;
-    width: 600px;
+    max-width: 480px;
     margin: 50px auto;
     border-top-left-radius: 1%;
     border-top-right-radius: 1%;
     border-bottom-left-radius: 1%;
     border-bottom-right-radius: 1%;
 }
-
-div.post i{
-    padding: 10px 0px 10px 15px;
-    font-size: 25px;
+.header{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px;
 }
-
-div.iconohtml5 {
-    float: left;
-    font-size: 45px;
+.header-left{
+    display: flex;
 }
-
-div.cuenta{
-    float: left;
-    padding-top: 10px;
-    padding-left: 10px;
+.header-right{
+    margin-right: 8px;
+    font-size: 24px;
 }
-
-.cuenta p {
-    margin:0%;
+.iconohtml5 {
+    font-size: 40px;
+    margin-right: 8px;
 }
-
-div.elipsis{
-    float: right;
-    padding-top: 15px;
-    padding-right: 15px;
-}
-
-div.image img{
+.image img{
     width: 100%;
 }
-
-div.actions :last-child{
-    float: right;
-    padding-right: 15px;
+.content {
+    padding: 8px;
+    
 }
-
-div.reactions {
-    padding-left: 15px;
+.actions {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 24px;
 }
-
-div.description {
-    padding-left: 15px;
-    padding-bottom: 10px;
+.action-left {
+    letter-spacing: 3px;
+}
+.action-right {
+    margin-right: 8px;
+}
+.reactions {
+    margin-top: 8px;
+}
+.description {
+    margin: 8px 0px;
+    text-align: justify;
 }
